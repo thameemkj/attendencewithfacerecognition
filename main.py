@@ -56,10 +56,10 @@ def takeAttendence():
                         name,cat=get_name_cat(id)
                         if(askyesno("Confirmation","Are you {} ?".format(name))):
                             if(mark_attendence.mark(str(id),cat)):
-                                showinfo("Done","Attendence has been marked for {} .".format(name))
+                                showinfo("Done","Attendance has been marked for {} .".format(name))
                                 cond=False
                             else:
-                                showerror("Error","Couldn't mark attendence for {} .".format(name))
+                                showerror("Error","Couldn't mark attendance for {} .".format(name))
                                 cond=False                         
                     else:                    
                         cv2.putText(img,"Cant recognize you",(x+5,y-5),cv2.FONT_HERSHEY_SIMPLEX,1,(0,255,0),2)                
