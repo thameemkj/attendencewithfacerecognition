@@ -52,3 +52,4 @@ def merge(filename):
         newfile=open(os.path.join(dir,"main.yml"),"w")
         newfile.write(final_content)
         newfile.close()
+        os.remove(os.path.join(dir,filename))
