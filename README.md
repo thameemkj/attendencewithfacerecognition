@@ -1,4 +1,4 @@
-# attendencewithfacerecognition
+# Attendence With Face Recognition
 
 First ensure that your system has following python packages installed:
  * PIL
