@@ -1,11 +1,11 @@
 # attendencewithfacerecognition
 
 First ensure that your system has following python packages installed:
-  PIL
-  openpyxl
-  numpy
-  opencv
-  opencv-contrib-python
+ * PIL
+ * openpyxl
+ * numpy
+ * opencv
+ * opencv-contrib-python
   
 Run the main.py, go to admin, and add students or teachers.
 You have to fill all the entry fields and record your video for 1 or 2 seconds.
